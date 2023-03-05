@@ -27,15 +27,15 @@ export default component$(() => {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
           integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer"
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
         />
 
         <link rel="preconnect" href="https://api.fonts.coollabs.io" />
         <link
           rel="preconnect"
           href="https://api.fonts.coollabs.io"
-          crossOrigin
+          crossOrigin="anonymous"
         />
         <link
           href="https://api.fonts.coollabs.io/css2?family=Ubuntu:wght@300;400;700&display=swap"
