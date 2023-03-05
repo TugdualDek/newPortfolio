@@ -1,5 +1,4 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
-import tugdual from "tugdual.jpg";
 import styles from "./header.css?inline";
 
 export default component$(() => {
@@ -9,7 +8,11 @@ export default component$(() => {
     <header>
       <div class="hero-container">
         <div class="hero">
-          <img src={tugdual} alt="Tugdual Audren de Kerdrel" class="image" />
+          <img
+            src="/tugdual.jpg"
+            alt="Tugdual Audren de Kerdrel"
+            class="image"
+          />
           <h1>
             Tugdual <br />
             Audren de Kerdrel
