@@ -41,6 +41,7 @@ export default component$(() => {
           href="https://api.fonts.coollabs.io/css2?family=Ubuntu:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="me" href="https://mastodon.social/@ThugDrk" />
       </head>
       <body lang="en">
         <RouterOutlet />
