@@ -1,0 +1,39 @@
+/* make the style for the tabs */
+.tabs {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  font-size: 1.25rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* Style the buttons inside the tab */
+.tab {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.1s;
+  font-size: 17px;
+  border-bottom: 1px solid var(--grey);
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Change background color of buttons on hover */
+
+.tab:hover {
+  background-color: var(--grey);
+  border-bottom: 1px solid var(--black);
+}
+
+.tablinks:hover {
+  color: var(--white);
+}
