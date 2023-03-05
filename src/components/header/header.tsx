@@ -1,5 +1,5 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
-import tugdual from "/tugdual.jpg";
+import tugdual from "tugdual.jpg";
 import styles from "./header.css?inline";
 
 export default component$(() => {
