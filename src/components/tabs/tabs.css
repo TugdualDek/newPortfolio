@@ -30,8 +30,12 @@
 
 /* Change background color of buttons on hover */
 
-.tab:hover {
+.tab:hover:not(.active) {
   background-color: var(--grey);
+}
+
+.tab.active:hover {
+  opacity: 0.8;
 }
 
 .tablinks:hover {
