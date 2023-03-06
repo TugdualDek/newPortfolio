@@ -5,11 +5,13 @@ import ProCard from "~/components/proCard/proCard";
 export default component$(() => {
   const projects = [
     {
+      num: 1,
       title: "Portfolio",
       desc: "My portfolio",
       link: "https://tugdual.kerdrel.com",
     },
     {
+      num: 2,
       title: "Portfolio",
       desc: "My portfolio",
     },
