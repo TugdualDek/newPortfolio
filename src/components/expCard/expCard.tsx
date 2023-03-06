@@ -3,6 +3,7 @@ import styles from "./expCard.css?inline";
 
 export default component$(
   (props: {
+    num: number;
     logo: string;
     alt: string;
     title: string;
@@ -12,7 +13,7 @@ export default component$(
     useStylesScoped$(styles);
 
     return (
-      <div class="card">
+      <div class="card" key={props.num}>
         <div class="card-content">
           <div class="imgText">
             <img src={props.logo} alt={props.alt} class="image" />

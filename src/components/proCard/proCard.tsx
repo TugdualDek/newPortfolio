@@ -2,11 +2,11 @@ import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import styles from "./proCard.css?inline";
 
 export default component$(
-  (props: { title: string; desc: string; link?: string }) => {
+  (props: { num: number; title: string; desc: string; link?: string }) => {
     useStylesScoped$(styles);
 
     return (
-      <div class="container">
+      <div class="container" key={props.num}>
         <div class="card">
           <div class="image"></div>
           <div class="content">

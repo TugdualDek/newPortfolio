@@ -25,15 +25,30 @@
   border-bottom: 1px solid var(--grey);
   flex-grow: 1;
   text-align: center;
+  gap: 10px;
 }
 
 /* Change background color of buttons on hover */
 
 .tab:hover {
   background-color: var(--grey);
-  border-bottom: 1px solid var(--black);
 }
 
 .tablinks:hover {
   color: var(--white);
+}
+
+.active {
+  border-bottom: 2px solid var(--blue);
+  animation: border-bottom-color 0.5s ease-in-out;
+}
+
+/* make keyframes to make bottom bar appear in blue and from the right */
+@keyframes border-bottom-color {
+  0% {
+    border-bottom-color: var(--grey);
+  }
+  100% {
+    border-bottom-color: var(--blue);
+  }
 }

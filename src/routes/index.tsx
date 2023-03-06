@@ -5,6 +5,7 @@ import ExpCard from "~/components/expCard/expCard";
 export default component$(() => {
   const experiences = [
     {
+      num: 1,
       logo: "/logo.webp",
       alt: "IsepInvest",
       title: "Developper at IsepInvest",
@@ -12,6 +13,7 @@ export default component$(() => {
       year: "October 2021 - ...",
     },
     {
+      num: 2,
       logo: "/isep.png",
       alt: "isep",
       title: "Student at Isep",
@@ -20,6 +22,7 @@ export default component$(() => {
       year: "2020 - 2025",
     },
     {
+      num: 3,
       logo: "/cvut.png",
       alt: "cvut",
       title: "Student at CVUT",
@@ -27,6 +30,7 @@ export default component$(() => {
       year: "february 2022 - june 2022",
     },
     {
+      num: 4,
       logo: "/adamantia.jpeg",
       alt: "adamantia",
       title: "Internship at Adamantia",
@@ -35,6 +39,7 @@ export default component$(() => {
       year: "june 2021 - july 2021",
     },
     {
+      num: 5,
       logo: "/la_roche.png",
       alt: "la_roche",
       title: "Lycée La Rochefoucauld",
@@ -42,6 +47,7 @@ export default component$(() => {
       year: "2017 - 2020",
     },
     {
+      num: 6,
       logo: "/catharines.jpg",
       alt: "catharines",
       title: "St Catharine's College",
@@ -49,6 +55,7 @@ export default component$(() => {
       year: "july 2019",
     },
     {
+      num: 7,
       logo: "/sg.png",
       alt: "sg",
       title: "Internship at Société Générale",
