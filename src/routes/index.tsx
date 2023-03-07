@@ -14,7 +14,7 @@ export default component$(() => {
     },
     {
       num: 2,
-      logo: "/isep.png",
+      logo: "/isep.webp",
       alt: "isep",
       title: "Student at Isep",
       subtitle:
@@ -23,7 +23,7 @@ export default component$(() => {
     },
     {
       num: 3,
-      logo: "/cvut.png",
+      logo: "/cvut.webp",
       alt: "cvut",
       title: "Student at CVUT",
       subtitle: "Erasmus exchange at Czech Technical University in Prague",
@@ -31,7 +31,7 @@ export default component$(() => {
     },
     {
       num: 4,
-      logo: "/adamantia.jpeg",
+      logo: "/adamantia.webp",
       alt: "adamantia",
       title: "Internship at Adamantia",
       subtitle:
@@ -40,7 +40,7 @@ export default component$(() => {
     },
     {
       num: 5,
-      logo: "/la_roche.png",
+      logo: "/la_roche.webp",
       alt: "la_roche",
       title: "Lycée La Rochefoucauld",
       subtitle: "Baccalauréat S - Physics-Chemistry Specialty",
@@ -48,7 +48,7 @@ export default component$(() => {
     },
     {
       num: 6,
-      logo: "/catharines.jpg",
+      logo: "/catharines.webp",
       alt: "catharines",
       title: "St Catharine's College",
       subtitle: "Computer Science International course",
@@ -56,7 +56,7 @@ export default component$(() => {
     },
     {
       num: 7,
-      logo: "/sg.png",
+      logo: "/sg.webp",
       alt: "sg",
       title: "Internship at Société Générale",
       subtitle:

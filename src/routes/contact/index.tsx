@@ -5,7 +5,7 @@ export default component$(() => {
   return (
     <div>
       <h1 style="text-align: center; padding: 10px;">
-        Here will be able to contact me !
+        Here you will be able to contact me !
       </h1>
     </div>
   );

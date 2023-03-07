@@ -13,19 +13,31 @@
 :root {
   scroll-behavior: smooth;
   --black: black;
-  --blue: hsl(217, 71%, 53%);
+  --blue: #1b2cc1;
   --green: hsl(141, 53%, 53%);
   --grey: rgba(177, 178, 181, 1);
+  --back: #313131;
 }
 
 body {
+  background: var(--back);
+  min-height: 100vh;
+  margin: 0;
+}
+
+.section {
+  margin-top: 25px;
+  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin: 0;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  -webkit-box-shadow: 0px 1px 15px 10px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 1px 15px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  backdrop-filter: blur(9px) saturate(100%);
+  -webkit-backdrop-filter: blur(9px) saturate(100%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }

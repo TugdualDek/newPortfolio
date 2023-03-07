@@ -6,7 +6,7 @@ import Tabs from "../components/tabs/tabs";
 export default component$(() => {
   return (
     <>
-      <main>
+      <main class="section">
         <Header />
         <Tabs />
         <section>
