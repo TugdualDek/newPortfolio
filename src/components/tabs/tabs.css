@@ -46,7 +46,7 @@
 }
 
 .active {
-  border-bottom: 2px solid var(--blue);
+  border-bottom: 3px solid var(--blue);
   animation: border-bottom-color 0.5s ease-in-out;
 }
 
