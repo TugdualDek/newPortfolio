@@ -9,7 +9,7 @@ export default component$(() => {
       <div class="hero-container">
         <div class="hero">
           <img
-            src="/tugdual.jpg"
+            src="/tugdual.webp"
             alt="Tugdual Audren de Kerdrel"
             class="image"
           />
