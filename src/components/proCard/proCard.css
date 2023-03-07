@@ -82,3 +82,19 @@
   );
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
+
+/* make it responsive */
+@media screen and (max-width: 768px) {
+  .card-content {
+    flex-direction: column;
+  }
+  .card-left {
+    width: 90%;
+  }
+  .card-right {
+    width: 90%;
+  }
+  .image-projet {
+    height: 200px;
+  }
+}
