@@ -16,7 +16,12 @@ export default component$(
       <div class="card" key={props.num}>
         <div class="card-content">
           <div class="imgText">
-            <img src={props.logo} alt={props.alt} class="image" />
+            <img
+              src={props.logo}
+              alt={props.alt}
+              class="image"
+              loading="lazy"
+            />
             <div class="text">
               <span class="titre">{props.title}</span>
               <span class="sousTtitre">{props.subtitle}</span>
