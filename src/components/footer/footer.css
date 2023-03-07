@@ -39,14 +39,29 @@ footer {
   width: 90%;
 }
 
-.footer-right .item a {
+.footer-right .item {
   text-decoration: none;
   color: transparent;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
-.footer-right .item a:hover {
+.footer-right .item:hover {
   opacity: 0.8;
+  animation: bounce 0.3s ease-in-out;
+}
+
+/* make keyframes to animate on hover the item */
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* make the responsive */
