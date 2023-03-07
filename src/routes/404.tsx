@@ -1,14 +1,13 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import ExpCard from "~/components/expCard/expCard";
-import experiences from "../data/experience.json";
 
 export default component$(() => {
   return (
-    <div>
-      {experiences.map((experience) => (
-        <ExpCard {...experience} />
-      ))}
+    <div id="error">
+      <div class="fof">
+        <h1>Error 404</h1>
+        <p>Page not found</p>
+      </div>
     </div>
   );
 });
