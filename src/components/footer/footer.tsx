@@ -19,16 +19,19 @@ export default component$(() => {
                 target="_blank"
               >
                 <img src="/logo-linkedin.svg" alt="linkedin" width="30px" />
+                <span>‎</span>
               </a>
             </div>
             <div class="item">
               <a href="https://github.com/TugdualDek" target="_blank">
                 <img src="/logo-github.svg" alt="github" width="30px" />
+                <span>‎</span>
               </a>
             </div>
             <div class="item">
               <a href="https://mastodon.social/@ThugDrk" target="_blank">
                 <img src="/logo-mastodon.svg" alt="mastodon" width="30px" />
+                <span>‎</span>
               </a>
             </div>
             <div class="item">

@@ -8,8 +8,6 @@ export default component$(() => {
   const location = useLocation();
   const nav = useNavigate();
 
-  console.log(location);
-
   const possibleRoutes = ["/", "/projects", "/contact", "/404", "/link"];
 
   useBrowserVisibleTask$(async () => {
