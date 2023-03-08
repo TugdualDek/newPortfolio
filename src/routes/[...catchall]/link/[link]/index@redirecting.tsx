@@ -1,5 +1,6 @@
 import { component$, useBrowserVisibleTask$ } from "@builder.io/qwik";
 import { useLocation, useNavigate } from "@builder.io/qwik-city";
+import Loader from "~/components/loader/loader";
 
 export default component$(() => {
   const location = useLocation();
@@ -26,5 +27,9 @@ export default component$(() => {
     }
   });
 
-  return <></>;
+  return (
+    <div>
+      <Loader />
+    </div>
+  );
 });

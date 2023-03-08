@@ -1,16 +1,9 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import ExpCard from "~/components/expCard/expCard";
-import experiences from "../data/experience.json";
+import Error from "~/components/error/error";
 
 export default component$(() => {
-  return (
-    <div>
-      {experiences.map((experience) => (
-        <ExpCard {...experience} />
-      ))}
-    </div>
-  );
+  return <Error />;
 });
 
 export const head: DocumentHead = {
