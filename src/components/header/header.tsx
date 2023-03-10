@@ -7,7 +7,7 @@ export default component$(() => {
   return (
     <header>
       <div class="hero-container">
-        <div class="hero">
+        <div class="hero" data-aos="fade-up" data-aos-delay="300">
           <img
             src="/tugdual.webp"
             alt="Tugdual Audren de Kerdrel"
@@ -18,7 +18,7 @@ export default component$(() => {
             Audren de Kerdrel
           </h1>
         </div>
-        <div class="subtitle">
+        <div class="subtitle" data-aos="fade-down" data-aos-delay="900">
           <p>
             Student at{" "}
             <span>
