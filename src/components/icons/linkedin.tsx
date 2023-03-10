@@ -1,7 +1,7 @@
-export const Linkedin = (props: { size: number }) => (
+export const Linkedin = (props: { size: number; color: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="white"
+    fill={props.color == "blue" ? "#0077b5" : "white"}
     class="ionicon"
     viewBox="0 0 512 512"
     width={props.size}

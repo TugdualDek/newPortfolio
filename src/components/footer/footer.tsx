@@ -21,7 +21,7 @@ export default component$(() => {
                 href="https://www.linkedin.com/in/tugdual-de-kerdrel/"
                 target="_blank"
               >
-                <Linkedin size={30} />
+                <Linkedin size={30} color="blue" />
               </a>
             </div>
             <div class="item">
