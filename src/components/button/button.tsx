@@ -15,7 +15,11 @@ export default component$(
           <button>
             <div class="svg-wrapper-1">
               <div class="svg-wrapper">
-                {props.id == "mail" ? <Mail /> : <Linkedin size={24} />}
+                {props.id == "mail" ? (
+                  <Mail />
+                ) : (
+                  <Linkedin size={24} color="white" />
+                )}
               </div>
             </div>
             <span>{props.text}</span>

@@ -8,7 +8,7 @@ export default component$(() => {
       <h1 style="text-align: center;">Do not hesitate any longer!</h1>
       <Button
         text="Send me a mail"
-        to="tugdualk@hotmail.com"
+        to="mailto:tugdualk@hotmail.com"
         image=""
         id="mail"
       />
