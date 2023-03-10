@@ -16,7 +16,8 @@ export default component$(
     return (
       <div class="card" key={props.num}>
         <div
-          class={"card-content " + (props.sens == "right" ? "right" : "left")}
+          class={"card-content "}
+          data-aos={"fade-"+props.sens}
         >
           <div class="card-left">
             <h2>{props.title}</h2>

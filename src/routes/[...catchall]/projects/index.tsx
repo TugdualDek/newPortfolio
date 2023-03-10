@@ -4,6 +4,7 @@ import projects from "../../../data/projects.json";
 import ProCard from "~/components/proCard/proCard";
 
 export default component$(() => {
+
   return (
     <div>
       {projects.map((project) => (

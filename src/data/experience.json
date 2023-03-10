@@ -5,7 +5,8 @@
       "alt": "IsepInvest",
       "title": "Developper at IsepInvest",
       "subtitle": "Web and bot discord development",
-      "year": "October 2021 - ..."
+      "year": "October 2021 - ...",
+      "side"  : "right"
     },
     {
       "num": 2,
@@ -14,7 +15,8 @@
       "title": "Student at Isep",
       "subtitle":
         "International Integrated Cycle, First year of the Engineering Cycle",
-      "year": "2020 - 2025"
+      "year": "2020 - 2025",
+      "side"  : "left"
     },
     {
       "num": 3,
@@ -22,7 +24,8 @@
       "alt": "cvut",
       "title": "Student at CVUT",
       "subtitle": "Erasmus exchange at Czech Technical University in Prague",
-      "year": "february 2022 - june 2022"
+      "year": "february 2022 - june 2022",
+      "side"  : "right"
     },
     {
       "num": 4,
@@ -31,7 +34,8 @@
       "title": "Internship at Adamantia",
       "subtitle":
         "Information system audit, IT awareness and process optimization",
-      "year": "june 2021 - july 2021"
+      "year": "june 2021 - july 2021",
+      "side"  : "left"
     },
     {
       "num": 5,
@@ -39,7 +43,8 @@
       "alt": "la_roche",
       "title": "Lycée La Rochefoucauld",
       "subtitle": "Baccalauréat S - Physics-Chemistry Specialty",
-      "year": "2017 - 2020"
+      "year": "2017 - 2020",
+      "side"  : "right"
     },
     {
       "num": 6,
@@ -47,7 +52,8 @@
       "alt": "catharines",
       "title": "St Catharine's College",
       "subtitle": "Computer Science International course",
-      "year": "july 2019"
+      "year": "july 2019",
+      "side"  : "left"
     },
     {
       "num": 7,
@@ -56,6 +62,7 @@
       "title": "Internship at Société Générale",
       "subtitle":
         "Innov8 laboratory, YoDa chatbot, Pepper robots, presentation of the agile method",
-      "year": "june 2018"
+      "year": "june 2018",
+      "side"  : "right"
     }
   ]
