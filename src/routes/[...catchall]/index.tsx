@@ -62,5 +62,9 @@ export const head: DocumentHead = {
       name: "revisit-after",
       content: "1 days",
     },
+    {
+      name: "google-site-verification",
+      content: "2qhNW2IQzYiy95HrkS8zaNSq3ygfQYq7aox6JqYezlE"
+    }
   ],
 };
