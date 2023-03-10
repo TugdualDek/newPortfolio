@@ -24,6 +24,7 @@ body {
   margin: 0;
   margin: auto;
   color: var(--black);
+  overflow-x: hidden;
 }
 
 .section {

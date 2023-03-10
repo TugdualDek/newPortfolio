@@ -1,5 +1,8 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
+import { Arrow } from "../icons/arrow";
+import { Linux } from "../icons/linux";
+import { School } from "../icons/school";
 import styles from "./tabs.css?inline";
 
 export default component$(() => {
@@ -19,13 +22,18 @@ export default component$(() => {
           href="/"
           class="tablinks tab"
           style={
-            "color: var(--black); text-decoration: none; width: 100%; height: 100%;" +
+            "color: var(--black); text-decoration: none; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; flex: 1 1 auto;" +
             (location.url.pathname == "/"
               ? "color: var(--blue); font-weight: bold;"
               : "")
           }
         >
-          <span class={"tablinks "}>About</span>
+          <School
+            size={24}
+            color={location.url.pathname == "/" ? "var(--blue);" : ""}
+            filled={location.url.pathname == "/" ? true : false}
+          />{" "}
+          <span class={"tablinks "}> About</span>
         </Link>
       </div>
       <div
@@ -35,13 +43,18 @@ export default component$(() => {
           href="/projects"
           class="tablinks tab"
           style={
-            "color: var(--black); text-decoration: none; width: 100%; height: 100%;" +
+            "color: var(--black); text-decoration: none; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; flex: 1 1 auto;" +
             (location.url.pathname == "/projects/"
               ? "color: var(--blue); font-weight: bold;"
               : "")
           }
         >
-          <span class={"tablinks "}>Projects</span>
+          <Linux
+            size={24}
+            color={location.url.pathname == "/projects/" ? "var(--blue);" : ""}
+            filled={location.url.pathname == "/projects/" ? true : false}
+          />{" "}
+          <span class={"tablinks "}> Projects</span>
         </Link>
       </div>
       <div
@@ -51,13 +64,18 @@ export default component$(() => {
           href="/contact"
           class="tablinks tab"
           style={
-            "color: var(--black); text-decoration: none; display: flex; align-items: center; justify-content: center; flex-flox: column; height: 100%; flex: 1 1 auto;" +
+            "color: var(--black); text-decoration: none; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; flex: 1 1 auto;" +
             (location.url.pathname == "/contact/"
               ? "color: var(--blue); font-weight: bold;"
               : "")
           }
         >
-          <span class={"tablinks "}>Contact</span>
+          <Arrow
+            size={24}
+            color={location.url.pathname == "/contact/" ? "var(--blue);" : ""}
+            filled={location.url.pathname == "/contact/" ? true : false}
+          />{" "}
+          <span class={"tablinks "}> Contact</span>
         </Link>
       </div>
     </div>

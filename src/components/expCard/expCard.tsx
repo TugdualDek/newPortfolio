@@ -15,7 +15,7 @@ export default component$(
 
     return (
       <div class="card" key={props.num}>
-        <div class="card-content" data-aos={"fade-"+props.side}>
+        <div class="card-content" data-aos={"fade-" + props.side}>
           <div class="imgText">
             <img src={props.logo} alt={props.alt} class="image" />
             <div class="text">
