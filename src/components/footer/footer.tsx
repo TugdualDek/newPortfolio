@@ -1,5 +1,8 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
+import { Github } from "../icons/github";
+import { Linkedin } from "../icons/linkedin";
+import { Mastodon } from "../icons/mastodon";
 import styles from "./footer.css?inline";
 
 export default component$(() => {
@@ -18,20 +21,17 @@ export default component$(() => {
                 href="https://www.linkedin.com/in/tugdual-de-kerdrel/"
                 target="_blank"
               >
-                <img src="/logo-linkedin.svg" alt="linkedin" width="30px" />
-                <span>‎</span>
+                <Linkedin size={30} />
               </a>
             </div>
             <div class="item">
               <a href="https://github.com/TugdualDek" target="_blank">
-                <img src="/logo-github.svg" alt="github" width="30px" />
-                <span>‎</span>
+                <Github />
               </a>
             </div>
             <div class="item">
               <a href="https://mastodon.social/@ThugDrk" target="_blank">
-                <img src="/logo-mastodon.svg" alt="mastodon" width="30px" />
-                <span>‎</span>
+                <Mastodon />
               </a>
             </div>
             <div class="item">

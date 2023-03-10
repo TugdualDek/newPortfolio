@@ -1,6 +1,6 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import { Mail } from "../icons/mail";
-import { Linkedin } from "../icons/qwik";
+import { Linkedin } from "../icons/linkedin";
 import styles from "./button.css?inline";
 
 export default component$(
@@ -15,7 +15,7 @@ export default component$(
           <button>
             <div class="svg-wrapper-1">
               <div class="svg-wrapper">
-                {props.id == "mail" ? <Mail /> : <Linkedin />}
+                {props.id == "mail" ? <Mail /> : <Linkedin size={24} />}
               </div>
             </div>
             <span>{props.text}</span>
