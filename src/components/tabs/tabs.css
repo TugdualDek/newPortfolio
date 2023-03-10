@@ -25,7 +25,6 @@
   transition: 0.1s;
   font-size: 17px;
   border-bottom: 1px solid var(--grey);
-  border-top: 1px solid var(--grey);
   flex-grow: 1;
   text-align: center;
   gap: 10px;

@@ -19,7 +19,7 @@ export default component$(() => {
           href="/"
           class="tablinks tab"
           style={
-            "color: black; text-decoration: none; width: 100%; height: 100%;" +
+            "color: var(--black); text-decoration: none; width: 100%; height: 100%;" +
             (location.url.pathname == "/"
               ? "color: var(--blue); font-weight: bold;"
               : "")
@@ -35,7 +35,7 @@ export default component$(() => {
           href="/projects"
           class="tablinks tab"
           style={
-            "color: black; text-decoration: none; width: 100%; height: 100%;" +
+            "color: var(--black); text-decoration: none; width: 100%; height: 100%;" +
             (location.url.pathname == "/projects/"
               ? "color: var(--blue); font-weight: bold;"
               : "")
@@ -51,7 +51,7 @@ export default component$(() => {
           href="/contact"
           class="tablinks tab"
           style={
-            "color: black; text-decoration: none; width: 100%; height: 100%;" +
+            "color: var(--black); text-decoration: none; display: flex; align-items: center; justify-content: center; flex-flox: column; height: 100%; flex: 1 1 auto;" +
             (location.url.pathname == "/contact/"
               ? "color: var(--blue); font-weight: bold;"
               : "")

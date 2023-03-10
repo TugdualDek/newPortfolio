@@ -6,8 +6,18 @@ export default component$(() => {
   return (
     <div>
       <h1 style="text-align: center;">Do not hesitate any longer!</h1>
-      <Button text="Send me a mail" to="tugdualk@hotmail.com" image="" id=""/>
-      <Button text="Go on Linkedin" to="https://tugdual.kerdrel.com/link/linkedin" image="" id=""/>
+      <Button
+        text="Send me a mail"
+        to="tugdualk@hotmail.com"
+        image=""
+        id="mail"
+      />
+      <Button
+        text="Go on Linkedin"
+        to="https://tugdual.kerdrel.com/link/linkedin"
+        image=""
+        id="linkedin"
+      />
     </div>
   );
 });
@@ -21,7 +31,8 @@ export const head: DocumentHead = {
     },
     {
       name: "keywords",
-      content: "Portfolio, Tugdual, Audren, Kerdrel, Tugdual Audren de Kerdrel, portfolio, tugdual, kerdrel, audren de kerdrel, tugdual de kerdrel",
+      content:
+        "Portfolio, Tugdual, Audren, Kerdrel, Tugdual Audren de Kerdrel, portfolio, tugdual, kerdrel, audren de kerdrel, tugdual de kerdrel",
     },
     {
       name: "robots",
@@ -41,7 +52,7 @@ export const head: DocumentHead = {
     },
     {
       name: "google-site-verification",
-      content: "2qhNW2IQzYiy95HrkS8zaNSq3ygfQYq7aox6JqYezlE"
-    }
+      content: "2qhNW2IQzYiy95HrkS8zaNSq3ygfQYq7aox6JqYezlE",
+    },
   ],
 };
