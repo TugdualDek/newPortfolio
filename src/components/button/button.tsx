@@ -1,13 +1,15 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import styles from "./button.css?inline";
 
-export default component$((props: { text: string; to: string }) => {
+export default component$((props: { text: string; to: string, image: string, id: string }) => {
   useStylesScoped$(styles);
+
+  console.log(props.image)
 
   return (
     <div class="button-container">
 
-      <form action="mailto:rohit@k.com">
+      <form action={props.to}>
         <button>
           <div class="svg-wrapper-1">
             <div class="svg-wrapper">
