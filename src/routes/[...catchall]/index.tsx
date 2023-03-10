@@ -40,7 +40,27 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Tugdual's Portfolio",
+      content: "Portfolio of Tugdual Audren de Kerdrel",
+    },
+    {
+      name: "keywords",
+      content: "Portfolio, Tugdual, Audren, Kerdrel, Tugdual Audren de Kerdrel, portfolio, tugdual, kerdrel, audren de kerdrel, tugdual de kerdrel",
+    },
+    {
+      name: "robots",
+      content: "all",
+    },
+    {
+      name: "author",
+      content: "Tugdual Audren de Kerdrel",
+    },
+    {
+      name: "language",
+      content: "en",
+    },
+    {
+      name: "revisit-after",
+      content: "1 days",
     },
   ],
 };
