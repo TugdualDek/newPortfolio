@@ -34,10 +34,16 @@ export default component$(() => {
           rel="stylesheet"
         />
         <link rel="me" href="https://mastodon.social/@ThugDrk" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
       </head>
       <body lang="en">
         <RouterOutlet />
         <ServiceWorkerRegister />
+        <script>
+          AOS.init();
+        </script>
       </body>
     </QwikCityProvider>
   );
