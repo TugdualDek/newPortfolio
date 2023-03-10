@@ -9,12 +9,13 @@ export default component$(
     title: string;
     subtitle: string;
     year: string;
+    side: string;
   }) => {
     useStylesScoped$(styles);
 
     return (
       <div class="card" key={props.num}>
-        <div class="card-content">
+        <div class="card-content" data-aos={"fade-"+props.side}>
           <div class="imgText">
             <img src={props.logo} alt={props.alt} class="image" />
             <div class="text">
