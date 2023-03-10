@@ -6,8 +6,8 @@ export default component$(() => {
   return (
     <div>
       <h1 style="text-align: center;">Do not hesitate any longer!</h1>
-      <Button text="Send me a mail" to="tugdualk@hotmail.com" image="/send.svg"/>
-      <Button text="Go on Linkedin" to="https://tugdual.kerdrel.com/link/linkedin" image="/logo-linkedin.svg"/>
+      <Button text="Send me a mail" to="tugdualk@hotmail.com" image="" id=""/>
+      <Button text="Go on Linkedin" to="https://tugdual.kerdrel.com/link/linkedin" image="" id=""/>
     </div>
   );
 });
