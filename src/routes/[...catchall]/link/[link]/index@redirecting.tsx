@@ -12,7 +12,7 @@ export default component$(() => {
       id: "linkedin",
     },
     {
-      url: "https://web3portal.com/XABWfWRwH-8tK0tJUbaTHTKWovp1SoPhP0anJoHr6S2o2g",
+      url: "https://drive.google.com/file/d/1i4zJHzWnuxVW9GZvqV0w8pB_HA05fYVa/preview",
       id: "cv",
     },
     {
