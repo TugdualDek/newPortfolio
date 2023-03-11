@@ -2,6 +2,7 @@ import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import { Mail } from "../icons/mail";
 import { Linkedin } from "../icons/linkedin";
 import styles from "./button.css?inline";
+import { Download } from "../icons/download";
 
 export default component$(
   (props: { text: string; to: string; image: string; id: string }) => {
@@ -11,14 +12,16 @@ export default component$(
 
     return (
       <div class="button-container">
-        <form action={props.to}>
+        <form action={props.to} method="get">
           <button>
             <div class="svg-wrapper-1">
-              <div class="svg-wrapper">
+              <div class={"svg-wrapper"}>
                 {props.id == "mail" ? (
                   <Mail />
+                ) : props.id == "linkedin" ? (
+                  <Linkedin size={30} color="white" />
                 ) : (
-                  <Linkedin size={24} color="white" />
+                  <Download size={30} color="white" />
                 )}
               </div>
             </div>

@@ -18,14 +18,14 @@ export default component$(() => {
           <div class="footer-right">
             <div class="item">
               <a
-                href="https://www.linkedin.com/in/tugdual-de-kerdrel/"
+                href="https://tugdual.kerdrel.com/link/linkedin"
                 target="_blank"
               >
                 <Linkedin size={30} color="blue" />
               </a>
             </div>
             <div class="item">
-              <a href="https://github.com/TugdualDek" target="_blank">
+              <a href="https://tugdual.kerdrel.com/link/github" target="_blank">
                 <Github />
               </a>
             </div>

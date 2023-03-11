@@ -11,6 +11,14 @@ export default component$(() => {
       url: "https://www.linkedin.com/in/tugdual-de-kerdrel/",
       id: "linkedin",
     },
+    {
+      url: "https://web3portal.com/XABWfWRwH-8tK0tJUbaTHTKWovp1SoPhP0anJoHr6S2o2g",
+      id: "cv",
+    },
+    {
+      url: "https://github.com/TugdualDek",
+      id: "github",
+    },
   ];
 
   useBrowserVisibleTask$(async () => {
