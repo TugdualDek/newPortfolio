@@ -9,6 +9,10 @@
   margin-bottom: 25px;
   -webkit-box-shadow: 0px 10px 5px -4px rgba(0, 0, 0, 0.71);
   box-shadow: 0px 10px 5px -4px rgba(0, 0, 0, 0.71);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #e8eaf9;
 }
 
 /* Style the buttons inside the tab */
