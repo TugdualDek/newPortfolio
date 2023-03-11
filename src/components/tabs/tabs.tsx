@@ -30,7 +30,7 @@ export default component$(() => {
         >
           <School
             size={24}
-            color={location.url.pathname == "/" ? "var(--blue);" : ""}
+            color={location.url.pathname == "/" ? "#1b2cc1" : ""}
             filled={location.url.pathname == "/" ? true : false}
           />{" "}
           <span class={"tablinks "}> About</span>
@@ -51,7 +51,7 @@ export default component$(() => {
         >
           <Linux
             size={24}
-            color={location.url.pathname == "/projects/" ? "var(--blue);" : ""}
+            color={location.url.pathname == "/projects/" ? "#1b2cc1" : ""}
             filled={location.url.pathname == "/projects/" ? true : false}
           />{" "}
           <span class={"tablinks "}> Projects</span>
@@ -72,7 +72,7 @@ export default component$(() => {
         >
           <Arrow
             size={24}
-            color={location.url.pathname == "/contact/" ? "var(--blue);" : ""}
+            color={location.url.pathname == "/contact/" ? "#1b2cc1" : ""}
             filled={location.url.pathname == "/contact/" ? true : false}
           />{" "}
           <span class={"tablinks "}> Contact</span>
