@@ -37,7 +37,7 @@ export default component$(() => {
             <div class="item">
               <Link
                 href="/contact"
-                style="color: white; padding: 15px; text-decoration: none; border-radius: 8px; background-color: black;"
+                style="color: white; padding: 15px; text-decoration: none; border-radius: 8px; background-color: var(--black);"
               >
                 Contact me
               </Link>
