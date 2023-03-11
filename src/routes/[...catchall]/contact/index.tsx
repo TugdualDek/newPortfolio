@@ -18,6 +18,12 @@ export default component$(() => {
         image=""
         id="linkedin"
       />
+      <Button
+        text="See my resume"
+        to="https://tugdual.kerdrel.com/link/cv"
+        image=""
+        id="download"
+      />
     </div>
   );
 });
