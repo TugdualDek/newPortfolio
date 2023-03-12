@@ -60,5 +60,9 @@ export const head: DocumentHead = {
       name: "google-site-verification",
       content: "2qhNW2IQzYiy95HrkS8zaNSq3ygfQYq7aox6JqYezlE",
     },
+    {
+      name: "msvalidate.01",
+      content: "2962FD7871C539F0A2E8DFDB82D1B89D",
+    },
   ],
 };

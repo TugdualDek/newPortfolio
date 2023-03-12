@@ -44,7 +44,8 @@ export const head: DocumentHead = {
     },
     {
       name: "keywords",
-      content: "Portfolio, Tugdual, Audren, Kerdrel, Tugdual Audren de Kerdrel, portfolio, tugdual, kerdrel, audren de kerdrel, tugdual de kerdrel",
+      content:
+        "Portfolio, Tugdual, Audren, Kerdrel, Tugdual Audren de Kerdrel, portfolio, tugdual, kerdrel, audren de kerdrel, tugdual de kerdrel",
     },
     {
       name: "robots",
@@ -64,7 +65,11 @@ export const head: DocumentHead = {
     },
     {
       name: "google-site-verification",
-      content: "2qhNW2IQzYiy95HrkS8zaNSq3ygfQYq7aox6JqYezlE"
-    }
+      content: "2qhNW2IQzYiy95HrkS8zaNSq3ygfQYq7aox6JqYezlE",
+    },
+    {
+      name: "msvalidate.01",
+      content: "2962FD7871C539F0A2E8DFDB82D1B89D",
+    },
   ],
 };
