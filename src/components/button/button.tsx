@@ -12,7 +12,7 @@ export default component$(
 
     return (
       <div class="button-container">
-        <form action={props.to} method="get">
+        <form action={props.to}>
           <button>
             <div class="svg-wrapper-1">
               <div class={"svg-wrapper"}>
