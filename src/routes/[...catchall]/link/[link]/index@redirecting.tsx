@@ -12,7 +12,7 @@ export default component$(() => {
       id: "linkedin",
     },
     {
-      url: "https://rxresu.me/r/lVbUljoW",
+      url: "https://drive.google.com/file/d/1i4zJHzWnuxVW9GZvqV0w8pB_HA05fYVa/view",
       id: "cv",
     },
     {
