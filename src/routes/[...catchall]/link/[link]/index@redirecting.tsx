@@ -12,7 +12,7 @@ export default component$(() => {
       id: "linkedin",
     },
     {
-      url: "https://drive.google.com/file/d/1i4zJHzWnuxVW9GZvqV0w8pB_HA05fYVa/view",
+      url: "https://tugdual.kerdrel.com/cv.pdf",
       id: "cv",
     },
     {
