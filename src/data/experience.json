@@ -1,7 +1,7 @@
 [
     {
       "num": 1,
-      "logo": "/logo.webp",
+      "logo": "/assets/logo",
       "alt": "IsepInvest",
       "title": "Developper at IsepInvest",
       "subtitle": "Web and bot discord development",
@@ -10,7 +10,7 @@
     },
     {
       "num": 2,
-      "logo": "/isep.webp",
+      "logo": "/assets/isep",
       "alt": "isep",
       "title": "Student at Isep",
       "subtitle":
@@ -20,7 +20,7 @@
     },
     {
       "num": 3,
-      "logo": "/cvut.webp",
+      "logo": "/assets/cvut",
       "alt": "cvut",
       "title": "Student at CVUT",
       "subtitle": "Erasmus exchange at Czech Technical University in Prague",
@@ -29,7 +29,7 @@
     },
     {
       "num": 4,
-      "logo": "/adamantia.webp",
+      "logo": "/assets/adamantia",
       "alt": "adamantia",
       "title": "Internship at Adamantia",
       "subtitle":
@@ -39,7 +39,7 @@
     },
     {
       "num": 5,
-      "logo": "/la_roche.webp",
+      "logo": "/assets/la_roche",
       "alt": "la_roche",
       "title": "Lycée La Rochefoucauld",
       "subtitle": "Baccalauréat S - Physics-Chemistry Specialty",
@@ -48,7 +48,7 @@
     },
     {
       "num": 6,
-      "logo": "/catharines.webp",
+      "logo": "/assets/catharines",
       "alt": "catharines",
       "title": "St Catharine's College",
       "subtitle": "Computer Science International course",
@@ -57,7 +57,7 @@
     },
     {
       "num": 7,
-      "logo": "/sg.webp",
+      "logo": "/assets/sg",
       "alt": "sg",
       "title": "Internship at Société Générale",
       "subtitle":

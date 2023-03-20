@@ -9,7 +9,7 @@ export default component$(() => {
       <div class="hero-container">
         <div class="hero" data-aos="fade-up" data-aos-delay="300">
           <img
-            src="/tugdual.webp"
+            src="/assets/tugdual.webp"
             alt="Tugdual Audren de Kerdrel"
             class="image"
           />

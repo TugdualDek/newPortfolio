@@ -17,7 +17,11 @@ export default component$(
       <div class="card" key={props.num}>
         <div class="card-content" data-aos={"fade-" + props.side}>
           <div class="imgText">
-            <img src={props.logo} alt={props.alt} class="image" />
+            <picture>
+              <source srcSet={props.logo + ".webp"} type="image/webp" />
+              <img src={props.logo + ".png"} alt={props.alt} class="image" title={props.alt} />
+            </picture>
+
             <div class="text">
               <span class="titre">{props.title}</span>
               <span class="sousTtitre">{props.subtitle}</span>
