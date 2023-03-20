@@ -34,17 +34,24 @@ export default component$(() => {
           rel="stylesheet"
         />
         <link rel="me" href="https://mastodon.social/@ThugDrk" />
-        <link rel="preload" as="image" href="/tugdual.webp" type="image/webp"></link>
+        <link
+          rel="preload"
+          as="image"
+          href="/tugdual.webp"
+          type="image/webp"
+        ></link>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
       </head>
       <body lang="en">
         <RouterOutlet />
         <ServiceWorkerRegister />
-        <script>
-          AOS.init();
-        </script>
+        <script>AOS.init();</script>
+        <script
+          async
+          defer
+          src="https://scripts.withcabin.com/hello.js"
+        ></script>
       </body>
     </QwikCityProvider>
   );
