@@ -18,7 +18,7 @@ export default component$(() => {
             Audren de Kerdrel
           </h1>
         </div>
-        <div class="subtitle" data-aos="fade-down" data-aos-delay="900">
+        <div class="subtitle" data-aos="fade-down" data-aos-delay="600">
           <p>
             Student at{" "}
             <span>
