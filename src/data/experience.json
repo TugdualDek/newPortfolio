@@ -28,6 +28,15 @@
       "side"  : "right"
     },
     {
+      "num": 9,
+      "logo": "/assets/nasa",
+      "alt": "nasa",
+      "title": "ARISS SSTV Award",
+      "subtitle": "Received SSTV images from the ISS commemorating Lunar exploration",
+      "year": "december 2021",
+      "side"  : "left"
+    },
+    {
       "num": 4,
       "logo": "/assets/adamantia",
       "alt": "adamantia",
@@ -35,6 +44,15 @@
       "subtitle":
         "Information system audit, IT awareness and process optimization",
       "year": "june 2021 - july 2021",
+      "side"  : "right"
+    },
+    {
+      "num": 8,
+      "logo": "/assets/toeic",
+      "alt": "toeic",
+      "title": "TOEIC 895/990",
+      "subtitle": "English language certificate",
+      "year": "2021",
       "side"  : "left"
     },
     {
