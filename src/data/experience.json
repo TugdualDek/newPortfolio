@@ -56,13 +56,22 @@
       "side"  : "left"
     },
     {
+      "num": 10,
+      "logo": "/assets/nasa2",
+      "alt": "nasa",
+      "title": "ARISS SSTV Award",
+      "subtitle": "Received images on the occasion of the 20 years of amateur radio on the ISS.",
+      "year": "december 2020",
+      "side"  : "right"
+    },
+    {
       "num": 5,
       "logo": "/assets/la_roche",
       "alt": "la_roche",
       "title": "Lycée La Rochefoucauld",
       "subtitle": "Baccalauréat S - Physics-Chemistry Specialty",
       "year": "2017 - 2020",
-      "side"  : "right"
+      "side"  : "left"
     },
     {
       "num": 6,
@@ -71,7 +80,7 @@
       "title": "St Catharine's College",
       "subtitle": "Computer Science International course",
       "year": "july 2019",
-      "side"  : "left"
+      "side"  : "right"
     },
     {
       "num": 7,
@@ -81,6 +90,6 @@
       "subtitle":
         "Innov8 laboratory, YoDa chatbot, Pepper robots, presentation of the agile method",
       "year": "june 2018",
-      "side"  : "right"
+      "side"  : "left"
     }
   ]
