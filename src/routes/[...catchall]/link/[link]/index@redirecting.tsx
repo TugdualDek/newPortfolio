@@ -32,6 +32,10 @@ export default component$(() => {
       return;
     } else {
       window.location.replace(store.url);
+      //wait 5seconds before redirecting to the default page
+      setTimeout(() => {
+        nav("/");
+      }, 5000);
     }
   });
 
