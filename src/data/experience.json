@@ -1,5 +1,23 @@
 [
     {
+      "num": 12,
+      "logo": "/assets/juniorisep",
+      "alt": "JuniorIsep",
+      "title": "Technical manager at JuniorIsep",
+      "subtitle": "Manage and maintain infrastructure and tools, technical monitoring of assignments,\n technical training for students, technology intelligence",
+      "year": "June 2023 - June 2024",
+      "side"  : "right"
+    },
+    {
+      "num": 11,
+      "logo": "/assets/toeic",
+      "alt": "toeic",
+      "title": "TOEIC 965/990",
+      "subtitle": "English language certificate",
+      "year": "2023",
+      "side"  : "left"
+    },
+    {
       "num": 1,
       "logo": "/assets/logo",
       "alt": "IsepInvest",
