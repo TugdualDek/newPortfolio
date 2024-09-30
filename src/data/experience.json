@@ -1,5 +1,14 @@
 [
     {
+      "num": 13,
+      "logo": "/assets/bilendi",
+      "alt": "Bilendi Technology",
+      "title": "System, network and security administrator",
+      "subtitle": "Management of the company's information systems (Linux, LXC, etc.), IT support for employees",
+      "year": "September 2023 -",
+      "side"  : "left"
+    },
+    {
       "num": 12,
       "logo": "/assets/juniorisep",
       "alt": "JuniorIsep",
@@ -23,7 +32,7 @@
       "alt": "IsepInvest",
       "title": "Developper at IsepInvest",
       "subtitle": "Web and bot discord development",
-      "year": "October 2021 - ...",
+      "year": "October 2021 - July 2024",
       "side"  : "right"
     },
     {

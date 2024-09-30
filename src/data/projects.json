@@ -1,10 +1,19 @@
 [
     {
+        "num": 4,
+        "sens" : "left",
+        "title": "PDF Chorale SGP",
+        "desc" : ["Web application dedicated to managing and organising songs and programmes for the SGP choir.", "Songs can be added with sheet music.", "Programs can be created and pdfs generated automatically.", "- Front-end and back-end made in NextJs", "- Database made with Prisma and PostgreSql"],
+        "tags": ["NextJs", "Prisma", "PostgreSql, Docker"],
+        "link": "",
+        "img": "/assets/choralesgp.png"
+    },
+    {
         "num": 0,
         "sens" : "right",
         "title": "Trade Invest",
         "desc" : ["Creation of a fictitious trading platform for the InvestDay contest organized by the IsepInvest association.", "It is possible to buy and sell stocks and cryptocurrencies with the real rates of the US market.", "- Front-end and back-end made in NextJs", "- Database made with Prisma and PostgreSql"],
-        "tags": ["NextJs", "Prisma", "PostgreSql"],
+        "tags": ["NextJs", "Prisma", "PostgreSql, Docker"],
         "link": "https://github.com/TugdualDek/InvestDay",
         "img": "/assets/trade.webp"
     },

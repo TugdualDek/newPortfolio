@@ -19,6 +19,10 @@ export default component$(() => {
       url: "https://github.com/TugdualDek",
       id: "github",
     },
+    {
+      url: "https://git.tugdual.com",
+      id: "git",
+    },
   ];
 
   useBrowserVisibleTask$(async () => {
