@@ -26,10 +26,10 @@ export default component$(() => {
                 Isep
               </a>
             </span>{" "}
-            | Technical manager at{" "}
+            | SysAdmin at{" "}
             <span>
-              <a href="https://juniorisep.com" target="_blank">
-                JuniorISEP
+              <a href="https://bilendi.fr" target="_blank">
+                Bilendi
               </a>
             </span>
           </p>
